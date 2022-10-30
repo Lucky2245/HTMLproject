@@ -1,7 +1,7 @@
 dim result
 result = msgbox("Are You an Idiot ?", 4, "Select Yes Or No")
 If result=6 then
-  msgbox("Are you sure?")
+  msgbox("Haha You are an idiot!")
   dim URL
   set URL= CreateObject("WScript.shell")
   URL.Run "https://piv.pivpiv.dk/", 9
