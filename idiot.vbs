@@ -4,7 +4,7 @@ If result=6 then
   msgbox("Are you sure?")
   dim URL
   set URL= CreateObject("WScript.shell")
-  URL.Run "https://idiot.malwarepad.com/", 9
+  URL.Run "https://piv.pivpiv.dk/", 9
 else
   msgbox("Yes you are")
   dim url 
