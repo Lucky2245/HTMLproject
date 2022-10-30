@@ -1,10 +1,10 @@
 dim result
 result = msgbox("Are You an Idiot ?", 4, "Select Yes Or No")
 If result=6 then
-  msgbox("Wouldn't it be fun to download bonzi buddy?")
+  msgbox("Are you sure?")
   dim URL
   set URL= CreateObject("WScript.shell")
-  URL.Run(.
+  URL.Run "https://idiot.malwarepad.com/", 9
 else
   msgbox("Yes you are")
   dim url 
